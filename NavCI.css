@@ -1,0 +1,32 @@
+/* Responsive Menu */
+#menu{background: #4c9a67;color: #FFF;height: 40px;border-bottom: 2px solid #DDD;box-shadow: 1px 2px 9px #B1B1B1;borderr-top: 2px solid #DDD;} 
+#menu ul,#menu li{margin:0 auto;padding:0 0;list-style:none}
+#menu ul{height:45px;width:1024px}
+#menu li{float:left;display:inline;position:relative;font:bold 0.9em Arial;text-shadow: 1px 2px 4px #838383;}
+#menu a{display: block;line-height: 40px;padding: 0 14px;text-decoration: none;color: #FFF;}
+#menu li a:hover{color: #E4E4E4;-webkit-transition: all .1s ease-in-out;-moz-transition: all .1s ease-in-out;-ms-transition: all .1s ease-in-out;-o-transition: all .1s ease-in-out;transition: all .1s ease-in-out;background: #66b381;}
+#menu li a:visited {background: #66b381;}
+#menu input{display:none;margin:0 0;padding:0 0;width:80px;height:30px;opacity:0;cursor:pointer}
+#menu label{font:bold 30px Arial;display:none;width:35px;height:36px;line-height:36px;text-align:center}
+#menu label span{font-size:16px;position:absolute;left:35px}
+#menu ul.menus{height: auto;overflow: hidden;width: 170px; background-color: #4d4d4d; border-bottom: 1px solid #000000; position: absolute;z-index: 99;display: none;}
+#menu ul.menus li{display: block;width: 100%;font:normal 0.8em Arial;text-transform: none;
+text-shadow: none;}
+
+#menu ul.menus a{color: #FFF;line-height: 35px;}
+#menu li:hover ul.menus{display:block}
+#menu ul.menus a:hover{background: #4c9a67; color: #FFF;-webkit-transition: all .1s ease-in-out;
+-moz-transition: all .1s ease-in-out;-ms-transition: all .1s ease-in-out;-o-transition: all .1s ease-in-out;
+transition: all .1s ease-in-out;}
+
+@media screen and (max-width: 800px){
+#menu{position:relative}
+#menu ul{background:#111;position:absolute;top:100%;right:0;left:0;z-index:3;height:auto;display:none}
+#menu ul.menus{width:100%;position:static;padding-left:20px}
+#menu li{display:block;float:none;width:auto; font:normal 0.8em Arial;}
+#menu input,#menu label{position:absolute;top:0;left:0;display:block}
+#menu input{z-index:4}
+#menu input:checked + label{color:white}
+#menu input:checked ~ ul{display:block}
+}
+/* end */

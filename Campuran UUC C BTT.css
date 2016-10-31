@@ -1,0 +1,35 @@
+/* Back to top */
+#back-to-top {
+    background: #E73037; 
+    color: #ffffff;
+    padding: 8px 10px;
+    font-size: 24px}
+.back-to-top {
+    position: fixed!important;
+    position:absolute;
+    bottom:20px;
+    right: 20px;
+    z-index:999
+}
+/* Back to top End */
+
+h3.cara-mudah-menaikkan-menurunkan-nada-chord-gitar-sebuah-lagu {
+    font: bold Arial, serif; 
+    margin: 0;
+}
+.urutan-urutan-chord {
+    background: #f1f1f1; 
+    border-left: 10px solid #4c9a67; 
+    color: ##3333333; 
+    padding: 5px;
+}
+div#tipDiv {
+    font-family: "courier new";
+    padding: 4px;
+    color: #000;
+    font-size: 11px;
+    line-height: 1.2;
+    box-shadow:  0 0.5px 2px rgba(0,0,0,0.12), 0 0.5px 1px rgba(0,0,0,0.24);
+    background: #f1f1f1;
+    border: 1px solid #e6e6e6;
+}
