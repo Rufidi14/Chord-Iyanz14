@@ -42,7 +42,7 @@
     background: #43895c;
 }
 #dc-content1 a:hover, #dc-content2 a:hover, #dc-content3 a:hover, #dcl a { 
-    background: #ff0000
+    background: #ff0000;
 }
 #dcl a, #dc:visited, #dc-content1 a:visited, #dc-content2 a:visited, #dc-content3 a:visited {
     border: 1px double #333333;
