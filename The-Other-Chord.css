@@ -1,0 +1,13 @@
+.isichord2, .isichord3 {
+   display: none;
+}
+button#chord1, button#chord2, button#chord3 {
+    color: #ffffff;
+    padding: 8px;
+    width: 150px;
+    text-align: center;
+    background: #ff3333;
+    font: bold 14px Arial black;
+    cursor: pointer;
+    margin: 5px auto 5px auto;
+}
